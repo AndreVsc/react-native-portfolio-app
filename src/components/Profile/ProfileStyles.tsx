@@ -5,7 +5,6 @@
       flexDirection:'column',
       justifyContent: 'center',
       alignItems: 'center',
-      gap:30,
     },
     text: {
       fontSize: 24,
@@ -13,6 +12,7 @@
       color: '#2F2F2F',
     },
     tinyImage: {
+      margin:30,
       resizeMode:'contain',
       height:180,
       width:180,

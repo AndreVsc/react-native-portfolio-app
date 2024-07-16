@@ -2,7 +2,8 @@
   "expo": {
     "name": "my-profile",
     "slug": "my-profile",
-    "version": "1.0.1",
+    "version": "1.0.2",
+    "platforms": ["android"],
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -15,11 +16,11 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.andrevsc.myprofile",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      },
-      "package": "com.andrevsc.myprofile"
+      }
     },
     "web": {
       "favicon": "./assets/favicon.png"
